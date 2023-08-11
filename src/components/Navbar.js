@@ -38,7 +38,10 @@ const Navbar = (props) =>{
             <MenuBox flex={1} sx={{display:{xs:'none', md:'flex'}}}>
             
             {MenuItems.map((items)=>(
-                <Link href={items.Link} sx={{textDecoration:'none', color:'black'}}> <Typography variant="body2" fontSize={'18px'}>
+                <Link href={items.Link} sx={{textDecoration:'none', color:'black', "&:hover":{
+                    color:'green',
+                    transition:`all 0.45s ease`
+                }}}> <Typography variant="body2" fontSize={'18px'}>
                     {items.Name}
                 </Typography></Link>
             ))}
