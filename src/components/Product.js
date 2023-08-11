@@ -23,7 +23,7 @@ const Product = (props) => {
         <CardContent>
             <Typography gutterBottom variant="h4" align="center" color={"tomato"}>
                 {props.name} <br/>
-                ${props.price}
+                N{props.price}
             </Typography>
             
             <Typography  variant="h6" color='text.secondary'>

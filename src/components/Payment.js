@@ -94,7 +94,7 @@ return (
                     <div style={{display:'flex', justifyContent:'space-between'}}>
                     <Button type='submit' variant='contained' disabled={!stripe} 
                     sx={{background:'blue', color:'white',fontSize:'18px', margin:'auto',height:'5vh',
-                    textAlign:'center', marginTop:'10vh'}}>Pay ${props.sum} </Button>
+                    textAlign:'center', marginTop:'10vh'}}>Pay N{props.sum} </Button>
                     </div>
                 </form>
             )}

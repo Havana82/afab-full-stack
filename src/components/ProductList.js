@@ -1,6 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
-import { useEffect, useState } from "react";
-import axios from 'axios';
+
 import Product from "./Product";
 
 const ProductList = (props) => {
