@@ -4,21 +4,7 @@ import axios from 'axios';
 import Product from "./Product";
 
 const ProductList = (props) => {
-  const [products, setProducts] = useState([])
-
-  useEffect(() => {
-    const baseUrl = 'https://afab-african-market.onrender.com/api'
-    const fetchProducts = async () => {
-        try {
-            const res = await axios.get(`${baseUrl}/products/`)
-            setProducts(res.data)
-
-        } catch (error) {
-            console.log(error)
-        }
-    }
-    fetchProducts()
-  }, [])
+  
   return (
     <Box>
       <br/>
@@ -29,7 +15,7 @@ const ProductList = (props) => {
 
         <Grid container columnSpacing={{xs:0, sm:1, md:1}}
         direction={'column'}>
-      {products.map(product=>{ 
+      {props.data.map(product=>{ 
         return(
         <Grid item xs>
         

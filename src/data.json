@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken",
+        "slug": "poultry-cat",
+        "price": 95,
+        "quantity": 1,
+        "content": "Fresh , delicious locally raised",
+        "image": "http://127.0.0.1:8000/media/image/Frozen-chicken-vs-fresh-chicken_7wZsGXz.jpg",
+        "image_url": "https://www.fleshkart.com/blog/wp-content/uploads/2021/10/fresh-unprepared-chicken-legs-dark-plate-high-quality-photo-2048x1365.jpg",
+        "category": 1
+    },
+    {
+        "id": 2,
+        "name": "Turkey",
+        "slug": "turkey",
+        "price": 120,
+        "quantity": 1,
+        "content": "Fresh locally raised turkey.",
+        "image": "http://127.0.0.1:8000/media/image/turkey.jpeg",
+        "image_url": "https://i0.wp.com/lucky7farm.com/wp-content/uploads/2019/06/turkey-1.jpg",
+        "category": 1
+    },
+    {
+        "id": 3,
+        "name": "Beef",
+        "slug": "beef",
+        "price": 120,
+        "quantity": 1,
+        "content": "Locally raised Cows. Freshly prepared parts",
+        "image": "http://127.0.0.1:8000/media/image/beef.jpeg",
+        "image_url": "https://vegitagh.com/wp-content/uploads/2023/01/Bonelessbeef2.jpeg",
+        "category": 2
+    },
+    {
+        "id": 4,
+        "name": "Ram",
+        "slug": "ram",
+        "price": 105,
+        "quantity": 1,
+        "content": "Locally raised rams. freshly prepared.",
+        "image": "http://127.0.0.1:8000/media/image/ram.jpeg",
+        "image_url": "https://www.alcheftohome.com/cdn/shop/products/142-600x600.jpg",
+        "category": 2
+    },
+    {
+        "id": 5,
+        "name": "Cashews",
+        "slug": "cashews",
+        "price": 80,
+        "quantity": 1,
+        "content": "Recent harvests, fresh cashews",
+        "image": "http://127.0.0.1:8000/media/image/cashew-apple-.jpeg",
+        "image_url": "https://images.thequint.com/thequint%2F2015-09%2Fe15af503-eb95-44da-9702-1eddd5349b49%2Fhero.jpg",
+        "category": 3
+    },
+    {
+        "id": 6,
+        "name": "Plantain",
+        "slug": "plantain",
+        "price": 120,
+        "quantity": 1,
+        "content": "Locally grown, recent harvest.",
+        "image": "http://127.0.0.1:8000/media/image/Plantains.jpeg",
+        "image_url": "https://www.foodrepublic.com/img/gallery/whats-the-difference-between-bananas-and-plantains/intro-1684519935.webp",
+        "category": 3
+    },
+    {
+        "id": 7,
+        "name": "Palm Oil",
+        "slug": "palm-oil",
+        "price": 105,
+        "quantity": 1,
+        "content": "Pure unrefined red palm oil",
+        "image": "http://127.0.0.1:8000/media/image/Red-Palm-.jpeg",
+        "image_url": "https://africandelightstore.com/cdn/shop/products/VS1_4280_1100x.jpg",
+        "category": 3
+    },
+    {
+        "id": 8,
+        "name": "Soya Beans",
+        "slug": "soya-beans",
+        "price": 120,
+        "quantity": 1,
+        "content": "Organic Soya Beans. Recent harvest",
+        "image": "http://127.0.0.1:8000/media/image/aps_soybeans.jpg",
+        "image_url": "https://www.elephantgrp.com/sites/default/files/styles/basicpage/public/soya-beans2.jpg",
+        "category": 3
+    },
+    {
+        "id": 9,
+        "name": "Cassava",
+        "slug": "cassava",
+        "price": 120,
+        "quantity": 1,
+        "content": "Locally grown cassava. Organic and well preserved.",
+        "image": "http://127.0.0.1:8000/media/image/cassava.jpg",
+        "image_url": "https://abasto.com/wp-content/uploads/2020/09/what-is-yuca.jpg",
+        "category": 3
+    },
+    {
+        "id": 10,
+        "name": "Cassava Flakes (Garri)",
+        "slug": "cassava-flour",
+        "price": 95,
+        "quantity": 1,
+        "content": "Great tasting, stone free Cassava Flakes (Garri). Well preserved.",
+        "image": "http://127.0.0.1:8000/media/image/garri-600x580-1.jpg",
+        "image_url": "https://www.fmnfoods.com/wp-content/uploads/2020/07/garri.png",
+        "category": 3
+    },
+    {
+        "id": 11,
+        "name": "Peanuts",
+        "slug": "peanut",
+        "price": 45,
+        "quantity": 1,
+        "content": "Fresh peanuts. Well preserved and freshness guaranteed.",
+        "image": "http://127.0.0.1:8000/media/image/peanuts.jpeg",
+        "image_url": "https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/dd79402e574cd109-zm0UYLYi-zoom.jpg",
+        "category": 3
+    },
+    {
+        "id": 12,
+        "name": "Corn",
+        "slug": "corn",
+        "price": 120,
+        "quantity": 1,
+        "content": "Fresh, organic corn seeds. Well preserved and delicious taste.",
+        "image": "http://127.0.0.1:8000/media/image/Golden-Bantam-Corn.webp",
+        "image_url": "https://iadsb.tmgrup.com.tr/48c5ff/0/0/0/0/1732/1104?u=https://idsb.tmgrup.com.tr/2019/01/06/beyond-taste-the-many-health-benefits-of-corn-1546803009016.jpg",
+        "category": 3
+    },
+    {
+        "id": 13,
+        "name": "Yams",
+        "slug": "yams",
+        "price": 95,
+        "quantity": 1,
+        "content": "Recently harvested great tasting yams.",
+        "image": "http://127.0.0.1:8000/media/image/17536.png",
+        "image_url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/07/28/african-yam-on-wood-surface.jpg.rend.hgtvcom.1280.960.suffix/1659027513086.jpeg",
+        "category": 3
+    },
+    {
+        "id": 14,
+        "name": "Fresh CatFish",
+        "slug": "cat-fish",
+        "price": 120,
+        "quantity": 1,
+        "content": "Fresh, locally raised catfish . Delicious and affordable",
+        "image": "http://127.0.0.1:8000/media/image/catfish.jpeg",
+        "image_url": "https://5.imimg.com/data5/RV/MW/MY-33831909/fresh-catfish-500x500.jpg",
+        "category": 4
+    },
+    {
+        "id": 15,
+        "name": "Smoked CatFish",
+        "slug": "smoked-cat-fish",
+        "price": 140,
+        "quantity": 1,
+        "content": "Smoked, delicious smoked CatFish. Cleaned and salted.",
+        "image": "http://127.0.0.1:8000/media/image/smoked.jpeg",
+        "image_url": "https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_560/https://agro4africa.com/wp-content/uploads/2021/11/smoked-catfish-1.jpg",
+        "category": 4
+    }
+]

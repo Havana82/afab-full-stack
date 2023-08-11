@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import CatProd from './components/CatProd';
 import { useEffect, useState } from 'react';
 import PaymentForm from './components/PaymentForm';
+import data from './data.json'
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -70,7 +71,7 @@ const refreshCart = ()=>{
       <Route path='/cart' element={ <Cart cartItems={cartItems} 
       onRemove={onRemove} sum = {sum}/>}/>
       <Route path='/products' 
-      element={ <ProductList onAdd={onAdd}/>}/>
+      element={ <ProductList onAdd={onAdd} data = {data}/>}/>
       <Route path='/about' element={ <About/>}/>
       <Route path='/contact' element={ <Contact/>}/>
       <Route path='/payment' element={ <PaymentForm sum = {sum} 
