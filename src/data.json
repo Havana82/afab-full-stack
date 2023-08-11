@@ -113,7 +113,7 @@
         "id": 11,
         "name": "Peanuts",
         "slug": "peanut",
-        "price": 45,
+        "price": 4500,
         "quantity": 1,
         "content": "Fresh peanuts. Well preserved and freshness guaranteed.",
         "image": "http://127.0.0.1:8000/media/image/peanuts.jpeg",

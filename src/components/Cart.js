@@ -9,7 +9,7 @@ const Cart = (props) => {
     setStoredCart(cartItems)
         },[storedCart]);
 
-const cartState = props.sum? `Total : ${props.sum}`: "Your Cart is empty"
+const cartState = props.sum? `Total : N${props.sum}`: "Your Cart is empty"
 
 return (
 <Container  sx={{marginTop:'50px',background:'lightgrey'}}>
@@ -25,7 +25,7 @@ return (
         paddingTop:'5vh',paddingLeft:'15px',paddingRight:'15px', display:'block'}}><p> <Box component='span'>{product.name}</Box>
         <Box component='span' sx={{border:'solid 1px black', fontSize:'25px', marginLeft:'19px',paddingRight:'5px'}}> {product.qty}</Box>&nbsp; 
         <Button  sx={{color:'red', background:'lightblue',borderRadius:'10px', height:'3vh'}}
-        onClick={()=>props.onRemove(product)}>&nbsp;Remove&nbsp;</Button> <Box component='span' sx={{ float:'right'}} >&nbsp;&nbsp;${product.price}</Box>&nbsp;
+        onClick={()=>props.onRemove(product)}>&nbsp;Remove&nbsp;</Button> <Box component='span' sx={{ float:'right'}} >&nbsp;&nbsp;N{product.price}</Box>&nbsp;
         </p></Card>
         </>
         

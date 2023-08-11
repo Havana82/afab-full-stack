@@ -37,7 +37,7 @@ let {id} = useParams()
         
           <Product myDirection={'flex'} id ={product.id} key={product.id}
           name={product.name} content = {product.content} pHref={`/details/${product.slug}`}
-          image={product.image_url}/>
+          image={product.image_url} price = 'atural'/>
       
         </Grid> )}
         )}
