@@ -13,8 +13,8 @@ return (
     <Typography variant="h5" align="center" sx={{fontFamily:'roboto', height:'500px'}}>
         <br />
         <br />
-        <span> USA Address: 4008 Louetta Rd, Spring, Texas, USA. </span> <br />
-        <i> <strong> Address:</strong> <span> AFAB STORE: Harmony Estate Rd, Sango, ilorin Kwara State, Nigeria.</span> <br />
+        <span> <strong>USA Address:</strong> 4008 Louetta Rd, Spring, Texas, USA. </span> <br />
+        <i> <strong>  Nigeria Address:</strong> <span> AFAB STORE: Harmony Estate Rd, Sango, ilorin Kwara State, Nigeria.</span> <br />
         <span> AFAB FACTORY: Km 23, Badi Rd, Oke-oyi, ilorin Kwara State, Nigeria. </span>
 
             <br/>
